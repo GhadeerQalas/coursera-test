@@ -1,0 +1,72 @@
+body,html{
+ 
+}
+
+#header{
+			text-align: center;
+			font-size: 25px;
+			padding: 20px;
+			margin: 26px;
+			text-transform: capitalize;
+            font-weight:bold;
+			
+		}
+
+		#checkin
+		{
+			background-color: gray;
+				padding : 0px 0px 5px 8px;
+				border:2px solid black;
+				margin: 25px;
+				width:200px;
+				float:left
+		}
+		#beef
+		{
+			background-color: gray;
+				padding : 0px 0px 5px 8px;
+				border:2px solid black;
+				margin: 25px;
+				width:200px;
+				float:left
+		}
+
+		#suchi
+		{
+			background-color: gray;
+				padding : 0px 0px 5px 8px;
+				border:2px solid black;
+				margin: 25px;
+				width:200px;
+				float:left
+
+		}
+
+		/**************large devices **************/
+		@media (min-width: 1200px)
+		{
+			#checkin,#beef
+			{
+				width: 80%;
+				height: 60%;
+			}
+			#suchi
+			{
+				width: 800px;
+			}
+		}
+
+		/**************large devices **************/
+		@media (min-width: 992px) and (min-width: 1199px)
+		{
+			#checkin,#beef 
+			{
+				width: 50%;
+				height: 30%;
+			}
+			#sushi
+			{
+				width: 80px;
+			}
+
+		}
