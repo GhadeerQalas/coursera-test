@@ -20,7 +20,7 @@ div {
 	text-align: right; margin: 10px; background-color: gray;
 }
 #sushi, #beef, #chicken{
-	height:auto; width: 40%; text-align: center; float: right; border-bottom: 1px solid black; border-left: 1px solid black; font-weight: bold; font-size: 1.25em;
+	height:auto; width: 60%; text-align: center; float: right; border-bottom: 1px solid black; border-left: 1px solid black; font-weight: bold; font-size: 1.25em;
 }
 #chicken{
 	background-color: pink; color: black;
