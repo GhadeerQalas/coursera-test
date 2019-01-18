@@ -17,19 +17,19 @@ div {
 	.colm{width: 80%; border: 1px solid black; float: left; margin: 10%; margin-top: 5%; margin-bottom: 5%;}
 }
 .content{
-	text-align: right; margin: 10px; background-color: gray;
+	clear: right; margin: 10px; background-color: gray; font-family: Century Gothic;
 }
 #sushi, #beef, #chicken{
-	height:auto; width: 40%; text-align: center; float: right; border-bottom: 1px solid black; border-left: 1px solid black; font-weight: bold; font-size: 1.25em;
+	height:auto; width: 40%; text-align: center; float: right; border-bottom: 1px solid black; border-left: 1px solid black; font-weight: bold; font-family: calibri; font-size: 1.25em;
 }
 #chicken{
-	background-color: pink; color: black;
+	background-color: #ff66b3; color: black;
 }
 #beef{
-	background-color: red; color: white;
+	background-color: #ff0000; color: white;
 }
 #sushi{
-	background-color:  yellow; color: black;
+	background-color:  #ffff66; color: black;
 }
 @media (max-width: 991px) and (min-width: 768px){
 	#sushi{width: 20%;}
