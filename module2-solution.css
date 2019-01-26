@@ -3,15 +3,15 @@ body,html{
 }
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #222;
   border-radius: 0;
   border: 0;
+  width: 100%;
 }
-
 
 .navbar-brand h1 { /* name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #fff;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -24,34 +24,61 @@ body,html{
   text-decoration: none;
 }
 
-h1
-{
-			text-align:  center;
-			font-size: 25px;
-			padding: 20px;
-			margin: 26px;
-			text-transform: capitalize;
-            font-weight:bold;
-			
+		#checkin
+		{
+			background-color: gray;
+				padding : 0px 0px 5px 8px;
+				border:2px solid black;
+				margin: 25px;
+				width:200px;
+				float:left
+		}
+		#beef
+		{
+			background-color: gray;
+				padding : 0px 0px 5px 8px;
+				border:2px solid black;
+				margin: 25px;
+				width:200px;
+				float:left
 		}
 
-		@media (min-width: 992px) {
-	.col{width: 27.33%; border: 1px solid black; float: left; margin: 3%}
-}
-@media (max-width: 991px) and (min-width: 768px){
-	.col1{width: 44%; border: 1px solid black; float: left; margin: 3%;}
-	.col2{width: 94%; border: 1px solid black; float: left; margin: 3%;}
-}
-@media (max-width: 767px){
-	.colm{width: 80%; border: 1px solid black; float: left; margin: 10%; margin-top: 5%; margin-bottom: 5%;}
-}
-.content{
-	clear: right; margin: 10px; background-color: gray; font-family: Century Gothic;
-}
-.container .jumbotron #chicken{
-  text-align: center;
-}
+		#suchi
+		{
+			background-color: gray;
+				padding : 0px 0px 5px 8px;
+				border:2px solid black;
+				margin: 25px;
+				width:200px;
+				float:left
 
-@media (max-width: 991px) and (min-width: 768px){
-	#sushi{width: 20%;}
-} 
+		}
+
+		/**************large devices **************/
+		@media (min-width: 1200px)
+		{
+			#checkin,#beef
+			{
+				width: 80%;
+				height: 60%;
+			}
+			#suchi
+			{
+				width: 800px;
+			}
+		}
+
+		/**************large devices **************/
+		@media (min-width: 992px) and (min-width: 1199px)
+		{
+			#checkin,#beef 
+			{
+				width: 50%;
+				height: 30%;
+			}
+			#sushi
+			{
+				width: 80px;
+			}
+
+		}
