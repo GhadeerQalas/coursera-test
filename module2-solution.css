@@ -1,84 +1,81 @@
-body,html{
- 
-}
-/** HEADER **/
-#header-nav {
-  background-color: #222;
-  border-radius: 0;
-  border: 0;
-  width: 100%;
+.navbar{
+	min-height: 80px;
 }
 
-.navbar-brand h1 { /* name */
-  font-family: 'Lora', serif;
-  color: #fff;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+.navbar-brand{
+	padding: 30px 15px;
+	font-size: 30px;
 }
 
-		#checkin
-		{
-			background-color: gray;
-				padding : 0px 0px 5px 8px;
-				border:2px solid black;
-				margin: 25px;
-				width:200px;
-				float:left
-		}
-		#beef
-		{
-			background-color: gray;
-				padding : 0px 0px 5px 8px;
-				border:2px solid black;
-				margin: 25px;
-				width:200px;
-				float:left
-		}
+.navbar-default .navbar-brand{
+	color: #222;
+}
 
-		#suchi
-		{
-			background-color: gray;
-				padding : 0px 0px 5px 8px;
-				border:2px solid black;
-				margin: 25px;
-				width:200px;
-				float:left
+.navbar-header button{
+	background-color: #333;
+}
 
-		}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #333;
+}
 
-		/**************large devices **************/
-		@media (min-width: 1200px)
-		{
-			#checkin,#beef
-			{
-				width: 80%;
-				height: 60%;
-			}
-			#suchi
-			{
-				width: 800px;
-			}
-		}
+.navbar-header .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
 
-		/**************large devices **************/
-		@media (min-width: 992px) and (min-width: 1199px)
-		{
-			#checkin,#beef 
-			{
-				width: 50%;
-				height: 30%;
-			}
-			#sushi
-			{
-				width: 80px;
-			}
+.container{
+		width: 100%;
+}
 
-		}
+section {
+	background-color: #888;
+	color: #000;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+section h3{
+	margin: 0 auto 10px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px){
+	#collapsable-navbar {
+	background-color:#333;
+	}
+
+	#collapsable-navbar a{
+	color: #fff;
+	font-weight: bold;
+	}
+
+	#collapsable-navbar li {
+		text-align: center;
+	}
+	.navbar-header button{
+	background-color: #333;
+	}
+
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	    background-color: #333;
+	}
+
+	.navbar-header .navbar-toggle .icon-bar{
+		background-color: #fff;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
